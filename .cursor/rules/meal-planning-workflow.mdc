@@ -1,0 +1,33 @@
+---
+description: HelloFresh-liknande matplanering: brainstorming → receptval → handlingslista → meal prep. Användaren styr när nästa fas får köras.
+globs: 20??-??-??/**/*.md
+alwaysApply: false
+---
+
+# Matplanerings-workflow (HelloFresh-stil)
+
+Gäller när du arbetar i en datum-mapp som `YYYY-MM-DD/`.
+
+## Grundprinciper
+
+- **Användaren styr flödet**: Gå aldrig från brainstorming → handlingslista → meal prep utan att användaren uttryckligen säger att du ska fortsätta.
+- **Svenska + metriska enheter**: Skriv på svenska. Använd `g`, `kg`, `ml`, `dl`, `l`, `msk`, `tsk`, `st`.
+- **Receptlänkar**: Prioritera svenska receptsidor (t.ex. ICA, Köket, Arla, Mitt Kök). **Men** om en internationell källa ger tydligt bättre kvalitet/autenticitet (t.ex. phở), använd den.
+- **Portionsskalning**: När recept har andra portioner än målet, räkna om ingredienser med en tydlig faktor.
+- **Handlingslista är poolad**: En sammanslagen lista för alla valda recept och portioner, med dubbletter ihopslagna och enheter normaliserade.
+- **Egna recept**: När du skriver ett eget recept (helt eller som anpassad version), spara det som en separat fil i datum-mappen: `recept-<slug>.md` och referera till filen i `02-receptval.md`.
+
+## Filstruktur (förväntad)
+
+- `01-brainstorming.md`: preferenser + kandidatmåltider
+- `02-receptval.md`: valda recept + länkar + portioner
+- `recept-*.md`: egna recept (när tillämpbart)
+- `03-handlingslista.md`: poolad inköpslista (genereras först på kommando)
+- `04-meal-prep-plan.md`: optimerad tillagningsplan (genereras först på kommando)
+
+## Stop-punkter (måste följas)
+
+- Efter `01-brainstorming.md`: be användaren välja rätter och/eller ge egna recept.
+- Efter `02-receptval.md`: fråga **“Vill du att jag skapar handlingslista nu?”**
+- Efter `03-handlingslista.md`: fråga **“Vill du att jag skapar meal prep-plan nu?”**
+
