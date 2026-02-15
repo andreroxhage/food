@@ -47,9 +47,27 @@ The workflow has **mandatory stop points** between phases. Never proceed to the 
 
 ### Recipe Sources Priority
 
-1. **Swedish sites first**: ICA (primary), Köket, Arla, Mitt Kök, Coop
-2. **International sources**: Only when significantly better quality/authenticity (e.g., phở recipes)
-3. **Always provide clickable links**
+**User is a professional chef - prioritize QUALITY over convenience**
+
+1. **Best quality sources** (Swedish or international):
+   - Köket.se (high-quality Swedish recipes, chef-tested)
+   - Arla (especially for dairy-based dishes)
+   - Mitt Kök (authentic Nordic cuisine)
+   - Tasteline (professional Swedish chefs)
+   - Landleys Kök (high-quality home cooking)
+   - International sources when authenticity matters (e.g., Asian cuisine from authentic sources)
+
+2. **Secondary sources**:
+   - ICA, Coop (good for basic recipes but not priority)
+   - Food blogs (if quality is demonstrably high)
+
+3. **Search strategy**:
+   - Compare multiple sources for each recipe
+   - Prioritize recipes with professional chef backgrounds
+   - Look for techniques and flavor profiles that elevate the dish
+   - Balance quality with weekday feasibility (not too advanced)
+
+4. **Always provide clickable links**
 
 ### Default Parameters
 
@@ -89,7 +107,8 @@ The repository includes specialized agents for each phase of the workflow:
    - Stops and waits for user to select dishes
 
 2. **recipe-selection-agent** (`.cursor/agents/recipe-selection-agent.md`):
-   - Finds recipe links from Swedish sites (ICA priority)
+   - Finds BEST QUALITY recipe links (Köket, Tasteline, Arla, international sources)
+   - Compares multiple sources to find superior recipes
    - Creates custom recipes when needed (saved as `recept-*.md`)
    - Calculates portion scaling factors
    - Creates `02-receptval.md`
