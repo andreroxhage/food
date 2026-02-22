@@ -83,9 +83,8 @@
 | # | Rätt | Portioner |
 |---|------|-----------|
 | 1 | Kycklinggryta med vitlök & basilika (ICA) | 12 |
-| 2 | Teriyaki-glaserad fläskfilé med sesamris & bok choy | 6 |
+| 2 | Teriyaki-glaserad fläskfilé med sesamris & pak choi | 6 |
 | 3 | Chili con carne | 12 |
 | 4 | Enchiladas med kyckling | 6 |
-| 5 | Köttfärspaj med rotsaker | 6 |
 
-**Totalt: 42 portioner**
+**Totalt: 36 portioner**

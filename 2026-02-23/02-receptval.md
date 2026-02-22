@@ -1,7 +1,7 @@
 # 02 - Receptval
 
 **Datum:** 2026-02-23
-**Totalt antal portioner:** 42 portioner (5 rätter)
+**Totalt antal portioner:** 36 portioner (4 rätter)
 
 ---
 
@@ -129,15 +129,6 @@
 
 ---
 
-## 5. Köttfärspaj med rotsaker
-
-**Källa:** Eget recept (`recept-kottfarspaj-rotsaker-6p.md`)
-**Portioner:** 6
-
-*Se receptfil för fullständiga ingredienser och tillagning.*
-
----
-
 ## Sammanfattning
 
 | # | Rätt | Källa | Portioner | Protein |
@@ -146,11 +137,10 @@
 | 2 | Teriyakiwok med fläskfilé & sesamris | Köket.se (anpassad) | 6 | Fläskfilé |
 | 3 | Chili con carne | Eget recept | 12 | Nötfärs + bönor |
 | 4 | Kycklingenchilada | ICA | 6 | Kyckling |
-| 5 | Köttfärspaj med rotsaker | Eget recept | 6 | Nötfärs |
 
-**Totalt: 42 portioner**
+**Totalt: 36 portioner**
 
 ### Proteinvariation
 - Kyckling: rätt 1 + 4 (18p)
 - Fläskfilé: rätt 2 (6p)
-- Nötfärs: rätt 3 + 5 (18p)
+- Nötfärs: rätt 3 (12p)

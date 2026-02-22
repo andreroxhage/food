@@ -1,7 +1,7 @@
 # 03 - Handlingslista
 
 **Datum:** 2026-02-23
-**42 portioner — 5 rätter**
+**36 portioner — 4 rätter**
 
 ---
 
@@ -9,32 +9,27 @@
 
 - [ ] Kycklingfilé: **3 kg** (2 kg rätt 1 + 900 g rätt 4)
 - [ ] Fläskfilé: **750 g** (rätt 2)
-- [ ] Nötfärs: **2 kg** (1,5 kg rätt 3 + 500 g rätt 5)
+- [ ] Nötfärs: **1,5 kg** (rätt 3)
 
 ---
 
 ## Grönsaker
 
-- [ ] Gula lökar: **8 st** (rätt 2 + 3 + 5)
-- [ ] Röda paprikor: **4 st** (rätt 2 + 3)
+- [ ] Gula lökar: **6 st** (1,5 st rätt 2 + 4 st rätt 3)
+- [ ] Röda paprikor: **4 st** (1,5 st rätt 2 + 2 st rätt 3)
 - [ ] Pak choi: **300 g** (rätt 2)
 - [ ] Purjolök: **1 st** (rätt 4)
 - [ ] Tomater: **3 st** stora (rätt 4)
-- [ ] Morötter: **2 st** (rätt 5)
-- [ ] Palsternacka: **1 st** (rätt 5)
-- [ ] Vitlök: **2 huvuden** (17 klyftor totalt — rätt 1+3+4+5)
+- [ ] Vitlök: **2 huvuden** (15 klyftor totalt — rätt 1+3+4)
 - [ ] Färsk koriander: **1 kruka** (rätt 2 + 3)
 
 ---
 
 ## Mejeri & Ägg
 
-- [ ] Matlagningsgrädde: **7 dl** (5 dl rätt 1 + 2 dl rätt 5) → 1 × 5 dl + 1 × 2 dl
+- [ ] Matlagningsgrädde: **5 dl** (rätt 1) → 1 förp
 - [ ] Crème fraiche: **6 dl** (rätt 4) → 3 × 2 dl
-- [ ] Smör: **250 g** (rätt 5 — pajdeg + stekning)
-- [ ] Ägg: **2 st** (rätt 5)
 - [ ] Riven ost tex mex / cheddar: **225 g** (rätt 4)
-- [ ] Riven lagrad ost (prästost/cheddar): **150 g** (rätt 5)
 
 ---
 
@@ -44,7 +39,7 @@
   - 4 förp à 500 g (rätt 1 — kycklinggryta)
   - 3 burkar à 400 g (rätt 3 — chili)
   → köp t.ex. 8 burkar à 400 g
-- [ ] Tomatpuré: **6 msk** (rätt 3 + 5) → 1 tub
+- [ ] Tomatpuré: **3 msk** (rätt 3) → 1 tub
 - [ ] Vita bönor (ej i tomatsås): **2 burkar** (rätt 3)
 - [ ] Svarta bönor: **2 burkar** (rätt 3)
 - [ ] Kidneybönor: **2 burkar** (rätt 3)
@@ -55,12 +50,10 @@
 ## Skafferi
 
 - [ ] Jasminris: **4,5 dl** (rätt 2)
-- [ ] Vetemjöl: **4,5 dl ≈ 270 g** (rätt 5 — pajdeg)
 - [ ] Teriyakisås: **3 dl** (rätt 2) → 1 flaska
 - [ ] Äppelcidervinäger: **3 msk** (rätt 3) → 1 flaska
 - [ ] Sesamolja: **1 msk** (rätt 2) → 1 liten flaska
 - [ ] Sesamfrön: **2 msk** (rätt 2) → 1 påse
-- [ ] Worcestershiresås: **1,5 msk** (rätt 5) → 1 flaska
 - [ ] Majsstärkelse: **4 tsk** (rätt 1) → 1 påse
 - [ ] Hönsbuljongtärningar: **6 st** (rätt 1)
 - [ ] Nötbuljongtärningar: **2 st** (rätt 3)
@@ -71,12 +64,10 @@
 
 *(verifiera hemma innan köp)*
 
-- [ ] Spiskummin: **5 tsk** (rätt 3 + 4)
+- [ ] Spiskummin: **5 tsk** (2 tsk rätt 3 + 3 tsk rätt 4)
 - [ ] Chiliflakes: **1,5 msk** (rätt 3)
 - [ ] Rökt paprikapulver: **1 tsk** (rätt 3)
 - [ ] Oregano: **1 tsk** (rätt 3)
-- [ ] Torkad timjan: **1 tsk** (rätt 5)
-- [ ] Torkad rosmarin: **1 tsk** (rätt 5)
 
 ---
 
@@ -84,7 +75,7 @@
 
 - [ ] Fryst hackad lök: **6 dl** (rätt 1) → 1 påse
 - [ ] Frysta haricots verts: **600 g** (rätt 1) → 1–2 påsar
-- [ ] Fryst basilika: **8 msk** (rätt 1) → 1 förpackning (ICA/Santa Maria)
+- [ ] Fryst basilika: **8 msk** (rätt 1) → 1 förpackning
 
 ---
 
@@ -107,8 +98,7 @@
 
 ## Tillbehör — valfritt till servering
 
-- [ ] Kokt ris till chili + kycklinggryta (ca 8 dl extra jasminris/långkornigt)
+- [ ] Extra ris till chili + kycklinggryta (ca 8 dl)
 - [ ] Gräddfil (till chili)
 - [ ] Nachos (till chili)
-- [ ] Avokado (till chili)
 - [ ] Pasta eller potatis (till kycklinggryta)
