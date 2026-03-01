@@ -11,7 +11,7 @@
 
 | Rätt | Källa | Original | Mål | Faktor | Notiser |
 |---|---|---:|---:|---:|---|
-| Chili con carne | ICA (länk) | 4 port | 6 port | 1,5× | (verifiera) kryddstyrka |
+| Chili con carne | Köket (länk) | 4 port | 6 port | 1,5× | (verifiera) kryddstyrka |
 
 ## Handlingslista (utdrag)
 
@@ -27,4 +27,3 @@
 
 - 0–15 min: sätt ugnen, koka ris, hacka lök/vitlök/paprika (allt på en gång)
 - 15–35 min: bryn färs + bygg chili; in med ugnsrätt samtidigt
-

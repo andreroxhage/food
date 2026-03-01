@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+
+# Cursor IDE
+.cursor/
+
+# Claude Code local settings
+.claude/settings.local.json
+.claude/agent-memory*/
+.claude/memory/
+
+# Meal plan folders (generated per week)
+20??-??-??/
+
+# Standalone recipes
+recept-*.md
+recipe/
