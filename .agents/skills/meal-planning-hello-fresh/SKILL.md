@@ -102,19 +102,11 @@ Ingen separat stoppunkt — fortsätt direkt till Fas 5.
 
 Ge agenten alla recept (baserat på `04-alla-recept.md`). Agenten skapar tidsoptimerad tillagningsplan i `05-meal-prep-plan.md`.
 
-### Valfritt sista steg
-Fråga: **"Vill du exportera veckan till Notion (Inhandling)?"**
-
-Om ja: kör skillen `export-to-notion` (i huvudkonversationen, inte via subagent). Den skapar
-en översiktssida i Notion-databasen 💸 Inhandling med underliggande sidor för handlingslista,
-varje recept och meal prep-plan. Se [export-to-notion](../export-to-notion/SKILL.md).
-
-Klart! Ingen ytterligare stoppunkt efter detta.
+Klart! Ingen stoppunkt efter detta.
 
 ## Ytterligare skills
 
 - `/create-recipe [rätt] [portioner]` — Skapa ett eget recept från grunden
-- `/export-to-notion [YYYY-MM-DD]` — Exportera en färdig vecka till Notion (Inhandling)
 
 ## Referens
 

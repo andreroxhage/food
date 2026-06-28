@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Codex (Codex.ai/code) when working with code in this repository.
 
 ## Project Overview
 
@@ -17,9 +17,9 @@ YYYY-MM-DD/                          # Date-based meal planning folders
 ├── 04-alla-recept.md                # All recipes in standardized format (generated on request)
 └── 05-meal-prep-plan.md             # Optimized prep timeline (generated on request)
 
-.claude/
+.Codex/
 ├── agents/
-│   ├── meal-planning-orchestrator.md  # Top-level orchestrator (use with claude --agent)
+│   ├── meal-planning-orchestrator.md  # Top-level orchestrator (use with Codex --agent)
 │   ├── brainstorming-agent.md         # Phase 1: meal candidate generation
 │   ├── recipe-researcher.md           # Phase 2: parallel recipe research (one per dish)
 │   ├── recipe-creator.md              # Phase 2: custom recipe creation
@@ -31,10 +31,8 @@ YYYY-MM-DD/                          # Date-based meal planning folders
 │   │   ├── SKILL.md                   # Orchestration instructions
 │   │   ├── reference.md               # Sources, units, categories
 │   │   └── examples.md                # Output format examples
-│   ├── create-recipe/                 # Custom recipe skill
-│   │   └── SKILL.md                   # /create-recipe command
-│   └── export-to-notion/              # Notion export skill (optional final step)
-│       └── SKILL.md                   # /export-to-notion command
+│   └── create-recipe/                 # Custom recipe skill
+│       └── SKILL.md                   # /create-recipe command
 └── settings.local.json                # Local permission settings (gitignored)
 ```
 
@@ -55,7 +53,7 @@ User
 ### Key Design Decisions
 
 - **Parallel recipe research**: Phase 2 spawns one `recipe-researcher` agent per dish, all running in parallel. Each researcher compares 3-5 sources independently.
-- **Subagents can't spawn subagents**: The main conversation acts as orchestrator. Alternatively, use `claude --agent meal-planning-orchestrator` for automated orchestration.
+- **Subagents can't spawn subagents**: The main conversation acts as orchestrator. Alternatively, use `Codex --agent meal-planning-orchestrator` for automated orchestration.
 - **Skills preloaded into orchestrator**: The orchestrator agent has `meal-planning-hello-fresh` skill injected at startup via the `skills` field.
 
 ## Core Workflow & Architecture
@@ -77,22 +75,6 @@ The workflow has **mandatory stop points** between phases. Never proceed to the 
    - No stop point — continues directly to Phase 5
 
 5. **Phase 5 (Meal Prep)**: Create optimized preparation timeline
-   - Optional final step: Ask "Vill du exportera veckan till Notion (Inhandling)?" → run `export-to-notion`
-
-### Export to Notion (optional final step)
-
-After Phase 5, the week can be published to the Notion database **💸 Inhandling** via the
-`export-to-notion` skill (`/export-to-notion [YYYY-MM-DD]`). This is optional, not a hard
-phase gate, and can also be run standalone on any existing week folder.
-
-- **Structure**: one overview page named `Vecka YYYY-MM-DD` (summary + linked table of
-  contents), with **subpages** for the shopping list (`03`), one per recipe (parsed from
-  `04`), and the meal-prep plan (`05`).
-- **Must run in the main conversation** — Notion MCP isn't guaranteed inside subagents.
-- **Inhandling data source** (parent for new pages):
-  `collection://2ad3a69e-7647-80a2-89f3-000b0dfb831e` (database id
-  `2ad3a69e-7647-806c-bba0-d503a8f0f2a0`, under the "Matlagning" page).
-- See `.claude/skills/export-to-notion/SKILL.md` for the full procedure.
 
 ### Language & Units
 
@@ -170,7 +152,6 @@ Optimize for minimal total time by:
 |---|---|---|
 | `meal-planning-hello-fresh` | Auto or `/meal-planning-hello-fresh` | Main workflow with orchestration |
 | `create-recipe` | `/create-recipe [dish] [portions]` | Create a custom recipe |
-| `export-to-notion` | `/export-to-notion [YYYY-MM-DD]` | Publish a finished week to Notion (Inhandling) as overview + subpages |
 
 ## Working with Date Folders
 
